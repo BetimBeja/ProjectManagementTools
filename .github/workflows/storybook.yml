@@ -3,7 +3,7 @@ name: Deploy Storybook to Chromatic
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["feat/storybook"]
 
 # Allow one concurrent deployment
 concurrency:
